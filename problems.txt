@@ -1,0 +1,6 @@
+1. Difference between HTTP1.1 vs HTTP2 HTTP version history 
+2. List 5 differences between Browser JS vs Node Js.
+3. what happens when you type a URL in the address bar in the browser?
+4. Write a write up on Difference between copy by value and copy by reference. 
+5. How to copy by value a composite data type (array+objects). 
+6. JSON task https://medium.com/@reach2arunprakash/guvi-zen-code-sprint-javascript-practice-problems-in-json-objects-and-list-49ac3356a8a5
