@@ -1,6 +1,6 @@
 1. Difference between HTTP1.1 vs HTTP2 HTTP version history.
 --
-
+   -
 --------------------------------------------------------------------------------------------------------------------
 
 2. List 5 differences between Browser JS vs Node Js.
@@ -14,6 +14,11 @@
 
 3. what happens when you type a URL in the address bar in the browser?
 --
+    - when we enter the url in the adress bar. The browser checks gets the ip address for that url from DNS.
+    - then it's make a http get request to that ip address.
+    - the the server sends a HTML file in response.
+    - then it makes one more request if any additional supporting css or java file  is required.
+    - then html parser, css parser and js engine make the page available for the user.
 
 --------------------------------------------------------------------------------------------------------------------
 
@@ -29,10 +34,16 @@
 
 5. How to copy by value a composite data type (array+objects). 
 --
+   - we have 3 methods to do so.
+     - using spread operator.
+     - using Object.assign().
+     - using JSON parser and stringify.
+   - among these 3 first two makes shallow copy where as using JSON's method we can do deep copy of an object.
 
 --------------------------------------------------------------------------------------------------------------------
 
 6. JSON task https://medium.com/@reach2arunprakash/guvi-zen-code-sprint-javascript-practice-problems-in-json-objects-and-list-49ac3356a8a5
 --
+   - please chcek the folder JSON-tasks
 
 --------------------------------------------------------------------------------------------------------------------
