@@ -1,13 +1,20 @@
 1. Difference between HTTP1.1 vs HTTP2 HTTP version history.
 --
-   -
+   - HTTP 1.1 is the first standard version of http and released in 1997.
+   - To overcome the limititaions of HTTP 1.1, in 2015 HTTP 2 was introduced, primarily developed by google to reduce web page load latency by using various technique
+   ---version history---
+   - HTTP 0.9 --> 1991
+   - HTTP 1.0 --> 1996
+   - HTTP 1.1 --> 1997
+   - HTTP 2.0 --> 2015
+   - HTTP 3.0 --> 2020
 --------------------------------------------------------------------------------------------------------------------
 
 2. List 5 differences between Browser JS vs Node Js.
 --
-    -javascript that runs on a client machine on browser environment, we called that as Browser JS. where as Node gives an environment for JavaScript to run outside the client machine/ browser.
-    -Browser JavaScript has access to interect with DOM and browser APIs and all But it does not have access to file systems unlike Node Js.
-    -While writting Browser Js for client, we have to take care of all browser support as we can not predict which version of Js that particular browser is using. But while writting Node Js, we dont have this issue.
+    - javascript that runs on a client machine on browser environment, we called that as Browser JS. where as Node gives an environment for JavaScript to run outside the client machine/ browser.
+    - Browser JavaScript has access to interect with DOM and browser APIs and all But it does not have access to file systems unlike Node Js.
+    - While writting Browser Js for client, we have to take care of all browser support as we can not predict which version of Js that particular browser is using. But while writting Node Js, we dont have this issue.
     -
 
 --------------------------------------------------------------------------------------------------------------------
