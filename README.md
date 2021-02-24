@@ -8,9 +8,6 @@
 - [Problem 3](#problem-3)
 - [Problem 4](#problem-4)
 - [Problem 5](#problem-5)
-- [Problem 6](#problem-6)
-- [Flags](#flags)
-- [GitHub Custom Emoji](#github-custom-emoji)
 
 
 ### Problem 0 : Part A
