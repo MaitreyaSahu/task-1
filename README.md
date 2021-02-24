@@ -4,11 +4,11 @@
 - [Problem 0 : Part A](#problem-0--part-a)
 - [Problem 0 : Part B](#problem-0--part-b)
 - [Problem 1](#problem-1)
-- [Food & Drink](#food--drink)
-- [Travel & Places](#travel--places)
-- [Activities](#activities)
-- [Objects](#objects)
-- [Symbols](#symbols)
+- [Problem 2](#problem-2)
+- [Problem 3](#problem-3)
+- [Problem 4](#problem-4)
+- [Problem 5](#problem-5)
+- [Problem 6](#problem-6)
 - [Flags](#flags)
 - [GitHub Custom Emoji](#github-custom-emoji)
 
@@ -115,15 +115,11 @@ myCar.accidents.forEach(accident => console.log(accident.date));
 ### Problem 1
 **Parsing an JSON object’s Values:**
 
-Write a function called “printAllValues” which returns an newArray of all the input object’s values.
+Write a function called "printAllValues" which returns an newArray of all the input object’s values.
 
 **Input (Object):**
 ``` javascript
-var object = {
-    name: "RajiniKanth",
-    age: 33,
-    hasPets: false
-};
+var object = {name : "RajiniKanth", age : 25, hasPets : true};
 ```
 
 **Output:**
@@ -147,8 +143,20 @@ function printAllValues(obj) {
 printAllValues(obj);
 ```
 
-## Problem 2
+### Problem 2
+**Parsing an JSON object’s Keys:**
 
+Write a function called "printAllKeys" which returns an newArray of all the input object’s keys.
+
+**Example Input:**
+```javascript
+{name : "RajiniKanth", age : 25, hasPets : true}
+```
+**Example Output:**
+```javascript
+["name", "age", "hasPets"]
+```
+**Solution:**
 ```javascript
 var obj = {
     name: "RajiniKanth",
@@ -164,8 +172,21 @@ function printAllKeys(obj) {
 printAllValues(obj);
 ```
 
-### Problem 3
 
+### Problem 3
+**Parsing an JSON object and convert it to a list:**
+
+Write a function called "convertObjectToList" which converts an object literal into an array of arrays.
+
+**Input (Object):**
+```javascript
+var object = {name: "ISRO", age: 35, role: "Scientist"};
+```
+**Output:**
+```javascript
+[["name", "ISRO"], ["age", 35], ["role", "Scientist"]]
+```
+**Solution:**
 ```javascript
 var obj = {
     name: "ISRO",
@@ -182,7 +203,20 @@ convertListToObject(obj);
 ```
 
 ### Problem 4
+**Parsing a list and transform the first and last elements of it:**
+Write a function ‘transformFirstAndLast’ that takes in an array, and returns an object with:
+1) the first element of the array as the object’s key, and
+2) the last element of the array as that key’s value.
 
+**Input (Array):**
+```javascript
+var array = ["GUVI", "I", "am", "Geek"];
+```
+**Output:**
+```javascript
+{GUVI : "Geek"}
+```
+**Solution:**
 ```javascript
 var arr = ["GUVI", "I", "am", "a geek"];
 
@@ -197,7 +231,22 @@ transformFirstAndLast(arr);
 ```
 
 ### Problem 5
+**Parsing a list of lists and convert into a JSON object:**
+Write a function "fromListToObject" which takes in an array of arrays, and returns an object with each pair of elements in the array as a key-value pair.
 
+**Input (Array):**
+```javascript
+var array = [["make", "Ford"], ["model", "Mustang"], ["year", 1964]];
+```
+**Output:**
+```javascript
+{
+make : "Ford"
+model : "Mustang",
+year : 1964
+}
+```
+**Solution:**
 ```javascript
 var arr = [
     ["make", "Ford"],
