@@ -1,4 +1,4 @@
-# Guvi Zen - [Task-1](https://medium.com/@reach2arunprakash/guvi-zen-code-sprint-javascript-practice-problems-in-json-objects-and-list-49ac3356a8a5)
+# Guvi Zen - Task-1
 
 ## Table of Contents
 - [Write up](#write-up)
@@ -16,7 +16,7 @@
 1. **Difference between HTTP1.1 vs HTTP2 HTTP version history.**
    - HTTP 1.1 is the first standard version of http and released in 1997.
    - To overcome the limititaions of HTTP 1.1, in 2015 HTTP 2 was introduced, primarily developed by google to reduce web page load latency by using various technique
-   
+
 | version history | |
 | --- | --- |
 | HTTP 0.9 | 1991 |
